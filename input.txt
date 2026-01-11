@@ -1,0 +1,43 @@
+#include <Alishba> //code
+using _namespace std;
+
+khali sir() {
+    gino a = 5, b = 10;
+    taro c = 2.5;
+    harf ch = 'X';
+
+    je (a < b) {
+        dekha("a chhota hai b se\n");
+    } 
+    nahin {
+        dekha("a bara ya barabar hai b ke\n");
+    }
+
+    tak (a < 8) {
+        dekha("a = ", a, "\n");
+        a = a + 1;
+        je (a =6) {
+            ruk;
+        }
+    }
+    dora (gino i = 0; i < 3; i = i + 1) {
+        je (i == 1) {
+            challo;
+        }
+        dekha("i = ", i, "\n");
+    }
+
+    je (c > 2.0) {
+        wapsi;
+    }
+
+    je (a == 8) {
+        dekha("theek hai\n");
+    } nahin {
+        dekha("ghalat hai\n");
+    }
+
+    dekha("program khatam\n");
+    wapsi;
+}
+
